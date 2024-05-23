@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "LetianpaiService"
+include ':app'
+include ':Components'
+project(':Components').projectDir = new File('GeeUIComponents/Components')
+include ':CommChannel'
+project(':CommChannel').projectDir = new File('GeeUIComponents/CommChannel')

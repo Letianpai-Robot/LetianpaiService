@@ -1,0 +1,3 @@
+[submodule "GeeUIComponets"]
+	path = GeeUIComponets
+	url = git@github.com:Letianpai-Robot/GeeUIComponets.git
